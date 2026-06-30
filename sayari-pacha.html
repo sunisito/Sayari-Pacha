@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sayari Pacha · Jóvenes Ambientalistas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CURSOR PERSONALIZADO -->
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#inicio" class="nav__brand">
+    <span class="nav__mark">🌱</span> Sayari Pacha
+  </a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#quienes-somos">Quiénes somos</a>
+    <a href="#mision-vision">Misión &amp; Visión</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#aliados">Aliados</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__cloth"></div>
+  <div class="hero__torn"></div>
+
+  <div class="hero__sticker hero__sticker--spark1" aria-hidden="true">✦</div>
+  <div class="hero__sticker hero__sticker--spark2" aria-hidden="true">✦</div>
+  <div class="hero__sticker hero__sticker--spark3" aria-hidden="true">✦</div>
+  <div class="hero__sticker hero__sticker--recycle" aria-hidden="true">♻</div>
+
+  <div class="hero__earth" aria-hidden="true">🌍</div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">Organización sin fines de lucro &middot; ODS 15 · 13 · 10 · 4</p>
+    <div class="hero__title-wrap">
+      <span class="hero__burst">
+        <h1 class="hero__title">Sayari <span>Pacha</span></h1>
+      </span>
+    </div>
+    <p class="hero__tag">jóvenes ambientalistas</p>
+    <p class="hero__desc">"Sayari" significa <em>levantarse</em> en quechua. Nos ponemos de pie por la Pachamama: educación ambiental, biodiversidad y juventudes que lideran el cambio.</p>
+    <div class="hero__cta">
+      <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+      <a href="#contacto" class="btn btn--ghost">Únete</a>
+    </div>
+  </div>
+
+  <button class="scroll-hint" id="scrollHint" aria-label="Bajar">
+    <span>desliza</span>
+    <div class="scroll-hint__line"></div>
+  </button>
+</section>
+
+<!-- QUIENES SOMOS -->
+<section class="section section--light" id="quienes-somos">
+  <div class="container">
+    <p class="eyebrow">Quiénes somos</p>
+    <h2 class="section__title reveal">Una banda de jóvenes que decidió <span class="hl">tomar conciencia</span></h2>
+    <div class="about__grid">
+      <div class="about__text reveal">
+        <p>Sayari Pacha nació de la convicción de que la crisis climática no espera, y que las juventudes de Latinoamérica tienen el poder de provocar cambios reales. Trabajamos en comunidades, colegios y universidades impulsando proyectos de conservación, educación ambiental e inclusión.</p>
+        <p>Nos guían cuatro Objetivos de Desarrollo Sostenible: vida de ecosistemas terrestres, acción por el clima, reducción de las desigualdades y educación de calidad. Creemos en aprender haciendo, en el ruido bonito de la organización comunitaria y en el cuidado de la Pachamama como punto de partida, no de llegada.</p>
+        <div class="ods-row">
+          <span class="ods-chip ods-chip--15">ODS 15</span>
+          <span class="ods-chip ods-chip--13">ODS 13</span>
+          <span class="ods-chip ods-chip--10">ODS 10</span>
+          <span class="ods-chip ods-chip--4">ODS 4</span>
+        </div>
+      </div>
+      <div class="about__shout reveal">
+        <div class="shout-card">
+          <span class="shout-card__megaphone">📣</span>
+          <p>¡Toma <strong>conciencia</strong>!</p>
+          <small>Tú tienes el poder de provocar cambios</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat">
+        <span class="stat__num" data-count="1200">0</span>
+        <span class="stat__label">jóvenes movilizados</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="38">0</span>
+        <span class="stat__label">comunidades aliadas</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="9500">0</span>
+        <span class="stat__label">árboles sembrados</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="4">0</span>
+        <span class="stat__label">ODS de acción directa</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISION Y VISION -->
+<section class="section section--dark" id="mision-vision">
+  <div class="container">
+    <p class="eyebrow eyebrow--light">Hacia dónde vamos</p>
+    <h2 class="section__title section__title--light reveal">Misión y Visión</h2>
+
+    <div class="mv__laptop reveal">
+      <div class="mv__screen">
+        <div class="mv__col">
+          <h3>Misión</h3>
+          <p>Impulsar la conservación de la biodiversidad mediante educación ambiental y participación juvenil, generando conciencia y compromiso social.</p>
+        </div>
+        <div class="mv__divider"></div>
+        <div class="mv__col">
+          <h3>Visión</h3>
+          <p>Lograr una sociedad que valore y proteja la biodiversidad, impulsada por jóvenes líderes sostenibles.</p>
+        </div>
+      </div>
+      <div class="mv__base"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section class="section section--light" id="proyectos">
+  <div class="container">
+    <p class="eyebrow">Lo que hacemos</p>
+    <h2 class="section__title reveal">Principales proyectos</h2>
+
+    <div class="projects">
+      <article class="project-card reveal">
+        <div class="project-card__icon">🌳</div>
+        <h3>Sayari Verde</h3>
+        <p>Jornadas de reforestación y restauración de ecosistemas andinos junto a comunidades locales.</p>
+        <span class="project-card__tag">ODS 15</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__icon">☀️</div>
+        <h3>Clima en Acción</h3>
+        <p>Talleres de huella de carbono y campañas de incidencia climática en colegios y universidades.</p>
+        <span class="project-card__tag">ODS 13</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__icon">🤝</div>
+        <h3>Pacha Inclusiva</h3>
+        <p>Becas ambientales y espacios de liderazgo para jóvenes de comunidades rurales y migrantes.</p>
+        <span class="project-card__tag">ODS 10</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__icon">📚</div>
+        <h3>Escuela Sayari</h3>
+        <p>Currícula de educación ambiental gratuita para docentes de educación básica.</p>
+        <span class="project-card__tag">ODS 4</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__icon">🐝</div>
+        <h3>Guardianes de Biodiversidad</h3>
+        <p>Monitoreo ciudadano de especies nativas y campañas contra la pérdida de hábitats.</p>
+        <span class="project-card__tag">ODS 15</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__icon">♻️</div>
+        <h3>Sumaq Pacha</h3>
+        <p>Red de jóvenes ambientalistas que promueve consumo responsable y economía circular.</p>
+        <span class="project-card__tag">ODS 13</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ALIADOS -->
+<section class="section section--check" id="aliados">
+  <div class="container">
+    <p class="eyebrow">Caminamos acompañados</p>
+    <h2 class="section__title reveal">Aliados</h2>
+    <p class="section__sub reveal">Organizaciones, colegios y municipios que creen en este movimiento.</p>
+
+    <div class="allies-marquee reveal">
+      <div class="allies-track">
+        <span class="ally-pill">Municipalidad Verde</span>
+        <span class="ally-pill">EcoColegios Red</span>
+        <span class="ally-pill">Pachamama ONG</span>
+        <span class="ally-pill">Universidad Andina</span>
+        <span class="ally-pill">ClimaJoven</span>
+        <span class="ally-pill">Bosque Vivo</span>
+        <!-- duplicado para loop -->
+        <span class="ally-pill">Municipalidad Verde</span>
+        <span class="ally-pill">EcoColegios Red</span>
+        <span class="ally-pill">Pachamama ONG</span>
+        <span class="ally-pill">Universidad Andina</span>
+        <span class="ally-pill">ClimaJoven</span>
+        <span class="ally-pill">Bosque Vivo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section section--dark" id="contacto">
+  <div class="container">
+    <p class="eyebrow eyebrow--light">Hablemos</p>
+    <h2 class="section__title section__title--light reveal">Súmate a Sayari Pacha</h2>
+    <p class="section__sub section__sub--light reveal">¿Quieres ser voluntario, aliado o simplemente saber más? Escríbenos.</p>
+
+    <div class="contact__grid">
+      <form class="contact__form reveal" id="contactForm">
+        <label>
+          Nombre
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          Correo
+          <input type="email" name="correo" placeholder="tucorreo@ejemplo.com" required>
+        </label>
+        <label>
+          Mensaje
+          <textarea name="mensaje" rows="4" placeholder="Cuéntanos cómo quieres participar" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+        <p class="contact__success" id="contactSuccess">¡Gracias! Te responderemos pronto 🌱</p>
+      </form>
+
+      <div class="contact__info reveal">
+        <a class="contact__item" href="mailto:hola@sayaripacha.org">
+          <span>✉️</span> hola@sayaripacha.org
+        </a>
+        <a class="contact__item" href="#">
+          <span>📷</span> @sayaripacha
+        </a>
+        <a class="contact__item" href="#">
+          <span>📍</span> Cusco, Perú
+        </a>
+        <div class="contact__quote">
+          <p>"Tú tienes el poder de provocar cambios."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>🌍 Sayari Pacha · jóvenes ambientalistas · ODS 15 · 13 · 10 · 4</p>
+  <p>&copy; 2026 Sayari Pacha. Hecho con raíces, no con plástico.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
